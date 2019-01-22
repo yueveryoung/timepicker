@@ -3,7 +3,7 @@
 
 实例地址为：https://yueveryoung.github.io/timepicker/
 
-##1、在页面head中引入css文件：
+## 1、在页面head中引入css文件：
 
 ```
 <link href="wp-content/plugins/timepicker/css/jquery-ui.css" rel="stylesheet"/>
@@ -19,7 +19,7 @@
 <script type="text/javascript" src="/resources/plugins/timepicker/js/jquery-ui-sliderAccess.js"></script>
 ```
 
-##2、HTML中的时间元素
+## 2、HTML中的时间元素
 
 注意：create_time_start和create_time_end的名称是有要求的，这个必须和JS中的一样才可以。才能保证该元素被设置为时间样式
 
@@ -28,7 +28,7 @@
 <input type="text" class="form-control" id="create_time_end" placeholder="创建时间（结束）">
 ```
 
-##3、JS 代码
+## 3、JS 代码
 
 ```
     $(function () {
